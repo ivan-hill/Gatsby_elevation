@@ -1,0 +1,17 @@
+.about-section {
+  p {
+    font-size: 70px;
+    line-height: 0.9;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+
+    > div {
+      opacity: 0;
+      transform: translateY(0px);
+    }
+    &.is-reveal {
+      opacity: 1;
+    }
+  }
+}
